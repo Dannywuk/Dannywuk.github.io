@@ -1,0 +1,62 @@
+body{
+	background-image: url(./image/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 ;
+	text-align: center;
+}
+
+header h1 {
+	font-family: 'Luckiest Guy', 'Arial', 'san-serif';
+	font-size: 3rem;
+	text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+	}
+
+.color {
+	color: #CC4400;
+}
+
+h3 {
+	font-family: 'Luckiest Guy', 'Arial', 'san-serif';
+	font-size: 2rem;
+	display: inline-block;
+	color: #7C0A02;
+}
+
+.play-again {
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
+	vertical-align: bottom;
+	transition: transform .8s ease-in-out;
+}
+
+.play-again:hover{
+	transform: rotate(360deg);
+}
+
+.hidden {
+	display: none;
+}
+
+#list-data {
+	list-style: none;
+}
+
+#list-data li {
+	display: inline-block;
+	margin: 5px;
+}
+
+#scoreboard {
+	font-family: 'Pacifico', 'Arial', 'san-serif';
+}
+
+.score-title {
+	text-decoration: underline;
+}
+
+#correct-guesses, #wrong-guesses{
+	font-size: 1.5rem;
+}
