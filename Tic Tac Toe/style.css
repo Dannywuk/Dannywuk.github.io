@@ -1,0 +1,86 @@
+body {
+	background-image: url(./Image/bg.jpg);
+	background-position: center;
+	background-size: contain;
+	margin: 0 ;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+header h1 {
+	font-family: 'Righteous', 'Arial', 'san-serif';
+	margin: 15px;
+	font-size: 3rem;
+	letter-spacing: .15em;
+	text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.color {
+	color:#220066;
+}
+
+.td-game {
+	border: 2px solid #000000;
+	border-radius: 10px;
+	height: 130px;
+	width: 130px;
+	margin: 0;
+	background-color: rgb(255,255,255);
+	z-index: 1;
+	font-size: 5rem;
+	font-weight: bold;
+	font-family: 'Molle', 'Arial', 'san-serif';
+	transition: all 0.5s ease-out;
+	cursor: pointer;
+}
+
+.td-game:hover{
+	transform: scale(1.1,1.1);
+}
+
+.board-flex{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-container {
+	width: 420px;
+	height: 420px;
+	background-color: #0A8AD3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.reset {
+	font-size: 2.5rem;
+	cursor: pointer;
+	transition: transform .8s ease-in-out;
+}
+
+.reset:hover{
+	transform: rotate(360deg);
+}
+
+.record-flex {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	font-size: 1.5rem;
+}
+
+#record th {
+	text-decoration: underline;
+	padding-right: 10px;
+}
+
+#record th:last-child {
+	padding-right: 25px;
+}

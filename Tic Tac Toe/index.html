@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tic Tac Toe</title>
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+    	<header id="header" >
+    		<h1 id="title"> Tic Tac Toe</h1>
+    	</header>
+
+        <div class="board-flex">
+            <table id="board">
+                 <tbody class="flex-container">
+                    <tr>
+                        <td class="td-game" id="first"></td>
+                        <td class="td-game" id="second"></td>
+                        <td class="td-game" id="third"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-game" id="fourth"></td>
+                        <td class="td-game" id="fifth"></td>
+                        <td class="td-game" id="sixth"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-game" id="seventh"></td>
+                        <td class="td-game" id="eight"></td>
+                        <td class="td-game" id="nineth"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="record-flex">
+             <table id=record>
+                 <thead>
+                     <tr>
+                         <th>Player 1</th>
+                         <th>Draw</th>
+                         <th>Player 2</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td id="player-1">0</td>
+                         <td id="draw">0</td>
+                         <td id="player-2">0</td>
+                     </tr>
+                 </tbody>
+             </table>    
+             <div class="reset" onclick='resetGame()'>&orarr;</div>       
+        </div>
+    
+        
+        <script src="./main.js"></script>
+    </body>
+</html>
