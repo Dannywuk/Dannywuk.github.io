@@ -3,8 +3,8 @@ window.onload = function(){
 	setTimeout(drawList, 3000);
 };
 
-let give = ['Poongody @ Amoi', 'Jaansi', 'Neela', 'Narmatha', 'Susila', 'Jeevan', 'Rajeswary @ Papa', 'Purani', 'Hock Chai @ Siva', 'Sneka', 'Woun Chai @ Periyaboy', 'Selvanathan', 'Leelavathy', 'Saraswathy', 'Wuk Chai @ Chinnaboy', 'Muar Chai', 'Tamilchelvi @ Chella', 'Kishor', 'Arvin', 'Tanuc', 'Kierthini', 'Ashwini'];
-let secretSanta = 'Siindhu';
+let give = ['];
+let secretSanta = 'Mr.X';
 let people = document.getElementById('people');
 let load = document.getElementById('loading');
 let choose = document.getElementById('choose');
