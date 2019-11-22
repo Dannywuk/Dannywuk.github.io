@@ -1,9 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face { font-family: 'Merry Xmas'; src: url('../Secret Santa/Merry Xmas.TTF'); }
+@font-face { font-family: 'Merry Xmas'; src: url('../Secret Santa/Merry Xmas.ttf'); }
 
-@font-face { font-family: 'kr'; src: url('../Secret Santa/kr.TTF'); }
+@font-face { font-family: 'kr'; src: url('../Secret Santa/kr.ttf'); }
 
 #loading {
   display: inherit;
