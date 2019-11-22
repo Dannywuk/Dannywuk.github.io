@@ -3,7 +3,7 @@ window.onload = function(){
 	setTimeout(drawList, 3000);
 };
 
-let give = ['];
+let give = [];
 let secretSanta = 'Mr.X';
 let people = document.getElementById('people');
 let load = document.getElementById('loading');
